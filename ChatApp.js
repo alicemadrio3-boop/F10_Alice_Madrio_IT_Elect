@@ -14,7 +14,7 @@ export default function App() {
   // Chat State
   const [messages, setMessages] = useState([
     { id: '1', text: 'Hello, thank you for approaching me!', sender: 'other' },
-    { id: '2', text: 'Hi! How are you doing today?', sender: 'me' },
+    { id: '2', text: ' How are you doing today?', sender: 'me' },
     { id: '3', text: 'I’m okay love!', sender: 'other' },
   ]);
   const [input, setInput] = useState('');
